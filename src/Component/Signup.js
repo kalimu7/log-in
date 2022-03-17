@@ -6,7 +6,7 @@ function Signup(){
 
     const initailValues={username:"",email:"",password:""};
     const [fromvalues,setformvalues]=useState(initailValues);
-    const [formerrors,setformErrors]=useState({});
+    const [formerrors,setformErrors]=useState({ });
     const [issubmit , setisdubmit]=useState(false);
 
     const handlechange =(e)=>{
